@@ -8,7 +8,7 @@
 2. **Docker Compose:**
    - Dois serviços configurados:
      - Um container para a aplicação em Node.JS.
-     - Um container para o banco de dados (PostgreSQL).
+     - Um container para o banco de dados (Mysql).
    - Configuração de variáveis de ambiente para flexibilizar o deploy.
 
 3. **Volumes:**
@@ -55,7 +55,7 @@ $ docker ps
 
 ### 5. Testar a Aplicação
 - **Aplicativo:** Acesse `http://localhost:8080` no navegador.
-- **Banco de Dados:** Conecte-se ao banco usando ferramentas como MySQL Workbench ou pgAdmin com as credenciais do `.env`.
+- **Banco de Dados:** Conecte-se ao banco usando ferramentas como MySQL Workbench com as credenciais do `.env`.
 
 ---
 
